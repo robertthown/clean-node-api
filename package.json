@@ -9,11 +9,11 @@
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.6.0",
     "git-commit-msg-linter": "^5.0.8",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.1",
     "typescript": "^5.7.3"
   },
-
   "scripts": {
-      "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts"
   }
-
 }
