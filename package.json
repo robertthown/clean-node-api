@@ -19,7 +19,7 @@
   },
   "scripts": {
     "lint": "eslint . --ext .ts",
-    "test:staged": "jest",
-    "test": "jest"
+    "test:staged": "jest --passWithNoTests",
+    "test": "jest --passWithNoTests"
   }
 }
