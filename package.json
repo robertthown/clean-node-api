@@ -20,6 +20,6 @@
   "scripts": {
     "lint": "eslint . --ext .ts",
     "test:staged": "jest --passWithNoTests",
-    "test": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests --watch"
   }
 }
