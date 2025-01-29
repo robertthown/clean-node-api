@@ -11,5 +11,6 @@ export class SignUpController {
     if (!httpRequest.body.email) {
       return badRequest(new MissingParamError('email'))
     }
+    const 
   }
 }
