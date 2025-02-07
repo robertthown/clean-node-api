@@ -2,6 +2,7 @@
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^22.10.7",
+    "@types/validator": "^13.12.2",
     "@typescript-eslint/eslint-plugin": "^8.22.0",
     "@typescript-eslint/parser": "^8.22.0",
     "eslint": "^8.57.1",
@@ -27,5 +28,8 @@
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage"
+  },
+  "dependencies": {
+    "validator": "^13.12.0"
   }
 }
