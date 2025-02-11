@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.10.7",
     "@types/validator": "^13.12.2",
@@ -30,6 +31,7 @@
     "test:ci": "npm test -- --coverage"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "validator": "^13.12.0"
   }
 }
